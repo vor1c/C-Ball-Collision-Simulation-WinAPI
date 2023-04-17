@@ -7,5 +7,5 @@ Open the project in an IDE that supports C language and Windows API, such as Vis
 Build and run the project.
 You can change the number of balls by modifying the BALLS macro in the code.
 
-#License 
+# License 
 see the LICENSE.md file for details.
