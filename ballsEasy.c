@@ -3,11 +3,9 @@
 #include <time.h>
 #include <windows.h>
 
-
-
 #define M_PI 3.14159265358979323846
 #define effizienz 1
-#define BALLS 25
+#define BALLS 10
 int numBalls = BALLS;
 typedef struct {
     int x;
