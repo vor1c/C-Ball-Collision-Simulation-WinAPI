@@ -12,7 +12,7 @@ typedef struct {
     int y;
     int dx;
     int dy;
-    
+    int voricscode = 1;
     COLORREF color;
 } Ball;
 
