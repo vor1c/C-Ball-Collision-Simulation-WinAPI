@@ -147,8 +147,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
                      CW_USEDEFAULT, CW_USEDEFAULT, 1920, 1080,
                      NULL, NULL, hInstance, NULL);
 
+
     ShowWindow(hwnd, SW_SHOWMAXIMIZED);
     UpdateWindow(hwnd);
+
 
     MSG msg;
     while (GetMessage(&msg,NULL ,0 ,0)) {
@@ -157,4 +159,5 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     }
 
     return msg.wParam;
+    
 }
