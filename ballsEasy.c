@@ -50,7 +50,6 @@ void collideBalls(Ball *balls, int *numBalls, RECT rect) {
 
                 // Calculate the angle between the two balls
                 float angle = atan2(dy, dx);
-
                 // Calculate the velocity of ball 1 in the new direction
                 float v1x = totalVelocity * cos(angle + atan2(balls[i].dy, balls[i].dx) - M_PI / 2);
                 float v1y = totalVelocity * sin(angle + atan2(balls[i].dy, balls[i].dx) - M_PI / 2);
